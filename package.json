@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000f\u0000f\u0000\r\u0000 \u0000",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cindymurier/cff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cindymurier/cff/issues"
+  },
+  "homepage": "https://github.com/cindymurier/cff#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
