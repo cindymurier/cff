@@ -6,7 +6,7 @@ const mainContainer = document.querySelector("main");
 const renderTrain = async (ville) => {
 	try {
 		const response = await fetch(
-			`http://transport.opendata.ch/v1/stationboard?station=${ville}&limit=10`
+			`https://transport.opendata.ch/v1/stationboard?station=${ville}&limit=10`
 		);
 		const data = await response.json();
 		console.log(data);
